@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/HBD"
+            android:scaleType="centerCrop" />
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HAPPY BIRTH DAY"
+            android:background="#e88364"
+            android:textSize="30sp"
+            android:layout_above="@id/imageView"
+            android:layout_centerHorizontal="true"/>
+
+    <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="มีความสุขมากๆ สุขภาพร่างกายแข็งแรงนะ "
+            android:background="#c6d97f"
+            android:textSize="20sp"
+            android:layout_below="@id/imageView"
+            android:layout_centerHorizontal="true"/>
+    <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/friend"
+            android:layout_centerInParent="true"/>
+
+</RelativeLayout>
